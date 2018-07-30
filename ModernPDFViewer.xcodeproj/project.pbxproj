@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571FA672210F251300311433 /* PDFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571FA671210F251300311433 /* PDFSearchViewController.m */; };
+		57497C18210F21030004AC9F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 57497C16210F21030004AC9F /* Credits.rtf */; };
+		57CCBC2B210EBE5E0012AE03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CCBC2A210EBE5E0012AE03 /* AppDelegate.m */; };
+		57CCBC2E210EBE5E0012AE03 /* PDFDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CCBC2D210EBE5E0012AE03 /* PDFDocumentViewController.m */; };
+		57CCBC31210EBE5E0012AE03 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CCBC30210EBE5E0012AE03 /* Document.m */; };
+		57CCBC33210EBE5F0012AE03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CCBC32210EBE5F0012AE03 /* Assets.xcassets */; };
+		57CCBC36210EBE5F0012AE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CCBC34210EBE5F0012AE03 /* Main.storyboard */; };
+		57CCBC39210EBE5F0012AE03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CCBC38210EBE5F0012AE03 /* main.m */; };
+		57CCBC44210EBE5F0012AE03 /* ModernPDFViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CCBC43210EBE5F0012AE03 /* ModernPDFViewerTests.m */; };
+		57CCBC4F210EBE5F0012AE03 /* ModernPDFViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CCBC4E210EBE5F0012AE03 /* ModernPDFViewerUITests.m */; };
+		57CCBC5E210EBFF20012AE03 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CCBC5D210EBFF20012AE03 /* Quartz.framework */; };
+		57D776B5210ED3FF00A6DAE9 /* PDFOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D776B4210ED3FF00A6DAE9 /* PDFOutlineViewController.m */; };
+		57D776B8210EE03B00A6DAE9 /* PDFWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D776B7210EE03B00A6DAE9 /* PDFWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57CCBC40210EBE5F0012AE03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CCBC1E210EBE5E0012AE03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CCBC25210EBE5E0012AE03;
+			remoteInfo = ModernPDFViewer;
+		};
+		57CCBC4B210EBE5F0012AE03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CCBC1E210EBE5E0012AE03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CCBC25210EBE5E0012AE03;
+			remoteInfo = ModernPDFViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		571FA670210F251300311433 /* PDFSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFSearchViewController.h; sourceTree = "<group>"; };
+		571FA671210F251300311433 /* PDFSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFSearchViewController.m; sourceTree = "<group>"; };
+		57497C17210F21030004AC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
+		57CCBC26210EBE5E0012AE03 /* ModernPDFViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernPDFViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CCBC29210EBE5E0012AE03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57CCBC2A210EBE5E0012AE03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57CCBC2C210EBE5E0012AE03 /* PDFDocumentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFDocumentViewController.h; sourceTree = "<group>"; };
+		57CCBC2D210EBE5E0012AE03 /* PDFDocumentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFDocumentViewController.m; sourceTree = "<group>"; };
+		57CCBC2F210EBE5E0012AE03 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		57CCBC30210EBE5E0012AE03 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		57CCBC32210EBE5F0012AE03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57CCBC35210EBE5F0012AE03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57CCBC37210EBE5F0012AE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CCBC38210EBE5F0012AE03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57CCBC3A210EBE5F0012AE03 /* ModernPDFViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ModernPDFViewer.entitlements; sourceTree = "<group>"; };
+		57CCBC3F210EBE5F0012AE03 /* ModernPDFViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModernPDFViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CCBC43210EBE5F0012AE03 /* ModernPDFViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModernPDFViewerTests.m; sourceTree = "<group>"; };
+		57CCBC45210EBE5F0012AE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CCBC4A210EBE5F0012AE03 /* ModernPDFViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModernPDFViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CCBC4E210EBE5F0012AE03 /* ModernPDFViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModernPDFViewerUITests.m; sourceTree = "<group>"; };
+		57CCBC50210EBE5F0012AE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CCBC5D210EBFF20012AE03 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		57D776B3210ED3FF00A6DAE9 /* PDFOutlineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFOutlineViewController.h; sourceTree = "<group>"; };
+		57D776B4210ED3FF00A6DAE9 /* PDFOutlineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFOutlineViewController.m; sourceTree = "<group>"; };
+		57D776B6210EE03B00A6DAE9 /* PDFWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFWindowController.h; sourceTree = "<group>"; };
+		57D776B7210EE03B00A6DAE9 /* PDFWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57CCBC23210EBE5E0012AE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CCBC5E210EBFF20012AE03 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CCBC3C210EBE5F0012AE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CCBC47210EBE5F0012AE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57CCBC1D210EBE5E0012AE03 = {
+			isa = PBXGroup;
+			children = (
+				57CCBC28210EBE5E0012AE03 /* ModernPDFViewer */,
+				57CCBC42210EBE5F0012AE03 /* ModernPDFViewerTests */,
+				57CCBC4D210EBE5F0012AE03 /* ModernPDFViewerUITests */,
+				57CCBC27210EBE5E0012AE03 /* Products */,
+				57CCBC5C210EBFF10012AE03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57CCBC27210EBE5E0012AE03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CCBC26210EBE5E0012AE03 /* ModernPDFViewer.app */,
+				57CCBC3F210EBE5F0012AE03 /* ModernPDFViewerTests.xctest */,
+				57CCBC4A210EBE5F0012AE03 /* ModernPDFViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57CCBC28210EBE5E0012AE03 /* ModernPDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				57CCBC29210EBE5E0012AE03 /* AppDelegate.h */,
+				57CCBC2A210EBE5E0012AE03 /* AppDelegate.m */,
+				57CCBC2F210EBE5E0012AE03 /* Document.h */,
+				57CCBC30210EBE5E0012AE03 /* Document.m */,
+				57D776B6210EE03B00A6DAE9 /* PDFWindowController.h */,
+				57D776B7210EE03B00A6DAE9 /* PDFWindowController.m */,
+				57CCBC2C210EBE5E0012AE03 /* PDFDocumentViewController.h */,
+				57CCBC2D210EBE5E0012AE03 /* PDFDocumentViewController.m */,
+				57D776B3210ED3FF00A6DAE9 /* PDFOutlineViewController.h */,
+				57D776B4210ED3FF00A6DAE9 /* PDFOutlineViewController.m */,
+				571FA670210F251300311433 /* PDFSearchViewController.h */,
+				571FA671210F251300311433 /* PDFSearchViewController.m */,
+				57CCBC32210EBE5F0012AE03 /* Assets.xcassets */,
+				57CCBC34210EBE5F0012AE03 /* Main.storyboard */,
+				57CCBC37210EBE5F0012AE03 /* Info.plist */,
+				57CCBC38210EBE5F0012AE03 /* main.m */,
+				57CCBC3A210EBE5F0012AE03 /* ModernPDFViewer.entitlements */,
+				57497C16210F21030004AC9F /* Credits.rtf */,
+			);
+			path = ModernPDFViewer;
+			sourceTree = "<group>";
+		};
+		57CCBC42210EBE5F0012AE03 /* ModernPDFViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				57CCBC43210EBE5F0012AE03 /* ModernPDFViewerTests.m */,
+				57CCBC45210EBE5F0012AE03 /* Info.plist */,
+			);
+			path = ModernPDFViewerTests;
+			sourceTree = "<group>";
+		};
+		57CCBC4D210EBE5F0012AE03 /* ModernPDFViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57CCBC4E210EBE5F0012AE03 /* ModernPDFViewerUITests.m */,
+				57CCBC50210EBE5F0012AE03 /* Info.plist */,
+			);
+			path = ModernPDFViewerUITests;
+			sourceTree = "<group>";
+		};
+		57CCBC5C210EBFF10012AE03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57CCBC5D210EBFF20012AE03 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57CCBC25210EBE5E0012AE03 /* ModernPDFViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CCBC53210EBE5F0012AE03 /* Build configuration list for PBXNativeTarget "ModernPDFViewer" */;
+			buildPhases = (
+				57CCBC22210EBE5E0012AE03 /* Sources */,
+				57CCBC23210EBE5E0012AE03 /* Frameworks */,
+				57CCBC24210EBE5E0012AE03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModernPDFViewer;
+			productName = ModernPDFViewer;
+			productReference = 57CCBC26210EBE5E0012AE03 /* ModernPDFViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57CCBC3E210EBE5F0012AE03 /* ModernPDFViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CCBC56210EBE5F0012AE03 /* Build configuration list for PBXNativeTarget "ModernPDFViewerTests" */;
+			buildPhases = (
+				57CCBC3B210EBE5F0012AE03 /* Sources */,
+				57CCBC3C210EBE5F0012AE03 /* Frameworks */,
+				57CCBC3D210EBE5F0012AE03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CCBC41210EBE5F0012AE03 /* PBXTargetDependency */,
+			);
+			name = ModernPDFViewerTests;
+			productName = ModernPDFViewerTests;
+			productReference = 57CCBC3F210EBE5F0012AE03 /* ModernPDFViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57CCBC49210EBE5F0012AE03 /* ModernPDFViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CCBC59210EBE5F0012AE03 /* Build configuration list for PBXNativeTarget "ModernPDFViewerUITests" */;
+			buildPhases = (
+				57CCBC46210EBE5F0012AE03 /* Sources */,
+				57CCBC47210EBE5F0012AE03 /* Frameworks */,
+				57CCBC48210EBE5F0012AE03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CCBC4C210EBE5F0012AE03 /* PBXTargetDependency */,
+			);
+			name = ModernPDFViewerUITests;
+			productName = ModernPDFViewerUITests;
+			productReference = 57CCBC4A210EBE5F0012AE03 /* ModernPDFViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CCBC1E210EBE5E0012AE03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rhys Powell";
+				TargetAttributes = {
+					57CCBC25210EBE5E0012AE03 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					57CCBC3E210EBE5F0012AE03 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 57CCBC25210EBE5E0012AE03;
+					};
+					57CCBC49210EBE5F0012AE03 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 57CCBC25210EBE5E0012AE03;
+					};
+				};
+			};
+			buildConfigurationList = 57CCBC21210EBE5E0012AE03 /* Build configuration list for PBXProject "ModernPDFViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57CCBC1D210EBE5E0012AE03;
+			productRefGroup = 57CCBC27210EBE5E0012AE03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CCBC25210EBE5E0012AE03 /* ModernPDFViewer */,
+				57CCBC3E210EBE5F0012AE03 /* ModernPDFViewerTests */,
+				57CCBC49210EBE5F0012AE03 /* ModernPDFViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CCBC24210EBE5E0012AE03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CCBC33210EBE5F0012AE03 /* Assets.xcassets in Resources */,
+				57497C18210F21030004AC9F /* Credits.rtf in Resources */,
+				57CCBC36210EBE5F0012AE03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CCBC3D210EBE5F0012AE03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CCBC48210EBE5F0012AE03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CCBC22210EBE5E0012AE03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D776B5210ED3FF00A6DAE9 /* PDFOutlineViewController.m in Sources */,
+				57CCBC31210EBE5E0012AE03 /* Document.m in Sources */,
+				57D776B8210EE03B00A6DAE9 /* PDFWindowController.m in Sources */,
+				57CCBC2E210EBE5E0012AE03 /* PDFDocumentViewController.m in Sources */,
+				57CCBC39210EBE5F0012AE03 /* main.m in Sources */,
+				57CCBC2B210EBE5E0012AE03 /* AppDelegate.m in Sources */,
+				571FA672210F251300311433 /* PDFSearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CCBC3B210EBE5F0012AE03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CCBC44210EBE5F0012AE03 /* ModernPDFViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CCBC46210EBE5F0012AE03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CCBC4F210EBE5F0012AE03 /* ModernPDFViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57CCBC41210EBE5F0012AE03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CCBC25210EBE5E0012AE03 /* ModernPDFViewer */;
+			targetProxy = 57CCBC40210EBE5F0012AE03 /* PBXContainerItemProxy */;
+		};
+		57CCBC4C210EBE5F0012AE03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CCBC25210EBE5E0012AE03 /* ModernPDFViewer */;
+			targetProxy = 57CCBC4B210EBE5F0012AE03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57497C16210F21030004AC9F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57497C17210F21030004AC9F /* Base */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		57CCBC34210EBE5F0012AE03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CCBC35210EBE5F0012AE03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57CCBC51210EBE5F0012AE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		57CCBC52210EBE5F0012AE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		57CCBC54210EBE5F0012AE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ModernPDFViewer/ModernPDFViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6752H6VL8N;
+				INFOPLIST_FILE = ModernPDFViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpowell.ModernPDFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57CCBC55210EBE5F0012AE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ModernPDFViewer/ModernPDFViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6752H6VL8N;
+				INFOPLIST_FILE = ModernPDFViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpowell.ModernPDFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57CCBC57210EBE5F0012AE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6752H6VL8N;
+				INFOPLIST_FILE = ModernPDFViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpowell.ModernPDFViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModernPDFViewer.app/Contents/MacOS/ModernPDFViewer";
+			};
+			name = Debug;
+		};
+		57CCBC58210EBE5F0012AE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6752H6VL8N;
+				INFOPLIST_FILE = ModernPDFViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpowell.ModernPDFViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModernPDFViewer.app/Contents/MacOS/ModernPDFViewer";
+			};
+			name = Release;
+		};
+		57CCBC5A210EBE5F0012AE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6752H6VL8N;
+				INFOPLIST_FILE = ModernPDFViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpowell.ModernPDFViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ModernPDFViewer;
+			};
+			name = Debug;
+		};
+		57CCBC5B210EBE5F0012AE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6752H6VL8N;
+				INFOPLIST_FILE = ModernPDFViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpowell.ModernPDFViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ModernPDFViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57CCBC21210EBE5E0012AE03 /* Build configuration list for PBXProject "ModernPDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CCBC51210EBE5F0012AE03 /* Debug */,
+				57CCBC52210EBE5F0012AE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CCBC53210EBE5F0012AE03 /* Build configuration list for PBXNativeTarget "ModernPDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CCBC54210EBE5F0012AE03 /* Debug */,
+				57CCBC55210EBE5F0012AE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CCBC56210EBE5F0012AE03 /* Build configuration list for PBXNativeTarget "ModernPDFViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CCBC57210EBE5F0012AE03 /* Debug */,
+				57CCBC58210EBE5F0012AE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CCBC59210EBE5F0012AE03 /* Build configuration list for PBXNativeTarget "ModernPDFViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CCBC5A210EBE5F0012AE03 /* Debug */,
+				57CCBC5B210EBE5F0012AE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57CCBC1E210EBE5E0012AE03 /* Project object */;
+}
