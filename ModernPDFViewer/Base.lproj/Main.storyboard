@@ -958,7 +958,7 @@
                                     </subviews>
                                     <nil key="backgroundColor"/>
                                 </clipView>
-                                <scroller key="horizontalScroller" verticalHuggingPriority="750" doubleValue="0.75" horizontal="YES" id="3pM-Td-kTt">
+                                <scroller key="horizontalScroller" verticalHuggingPriority="750" doubleValue="0.375" horizontal="YES" id="3pM-Td-kTt">
                                     <rect key="frame" x="0.0" y="251" width="240" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
