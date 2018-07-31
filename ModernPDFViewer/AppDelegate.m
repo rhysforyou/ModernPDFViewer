@@ -15,6 +15,11 @@
 @implementation AppDelegate
 
 - (BOOL)applicationShouldOpenUntitledFile:(NSApplication *)sender {
+    // Helpfully this is only called when the app doesn't have any previously
+    // open documents at launch, so it provides a nice place to show the Open
+    // File dialog.
+    [NSDocumentController.sharedDocumentController openDocument:nil];
+
     return false;
 }
 
